@@ -1,0 +1,74 @@
+/* AppointmentHistory.css */
+.appointment-history-container {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 800px;
+  width: 90%;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.appointment-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  min-width: 600px; /* Adjust as needed */
+}
+
+.appointment-table th, 
+.appointment-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.appointment-table th {
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.appointment-table td {
+  text-align: center;
+}
+
+.error {
+  color: red;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .appointment-table th, 
+  .appointment-table td {
+    padding: 4px;
+  }
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	background-color:#007dc1;
+	border-radius:3px;
+	border:1px solid #124d77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #154682;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	background-color:#0061a7;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
